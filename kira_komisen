@@ -1,8 +1,11 @@
+# Atur cara mengira komisen
+
 jumlah=0
 jualan=0
 komisen=0
 ulang="Y"
 while ulang=="Y":
+
     jualan=float(input("Masukkan jumlah juala: RM"))
     if jualan > 80:
         kadar_komisen=0.055
